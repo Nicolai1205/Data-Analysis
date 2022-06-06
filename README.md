@@ -1,6 +1,10 @@
-# Portfolio_Projects_1
-The code contains basic SQL code, aiming to create new columns, exploring and cleaning the data and more.
+# Data Analysis projects
+## Netflix top 10
+An exploration and slight data cleaning of a dataset found on Kaggle, with the aim to find relationships, and visualize data
+and draw a conclusion on media on Netflix with regard to how long they stay in the top 10 and whether they are exclusive or not.
 
+## Covid Data
+The code contains basic SQL code, aiming to create new columns, exploring and cleaning the data and more.
 
 Tableau public:
 My first ever tableau visualization (Dated: March 30th 2022)
