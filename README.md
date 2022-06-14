@@ -14,3 +14,6 @@ https://public.tableau.com/views/Covid_trial_Dashboard_v1/Dashboard1?:language=e
 ## API - Crypto data
 USing the coinmarketcap API, draw data on the top 10 crypto currencies, automate the process
 and try to visualize the data and discuss potential issues and further ideas.
+
+## Data analysis certificate
+Includes small projects using Python, Numpy, MatPlotLib and Seaborn from Freecodeccamp in order to land their certificate.
