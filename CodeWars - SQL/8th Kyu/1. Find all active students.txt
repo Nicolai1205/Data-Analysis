@@ -1,0 +1,27 @@
+Create a simple SELECT query to display student information of all ACTIVE students.
+
+TABLE STRUCTURE:
+
+students
+Id	FirstName	LastName	IsActive
+
+Note: IsActive (true or false)
+
+
+--My Solution--
+
+SELECT
+  id,
+  FirstName,
+  LastName,
+  IsActive
+FROM
+  students
+WHERE
+  IsActive 
+
+
+--Explanation--
+
+You do not need to set IsActive to True as by saying Where IsActive, it is already only validating and
+thus showing you True values.

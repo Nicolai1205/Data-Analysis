@@ -1,0 +1,25 @@
+Very simple, given an integer or a floating-point number, find its opposite.
+
+Examples:
+
+1: -1
+14: -14
+-34: 34
+
+You will be given a table: opposite, with a column: number. Return a table with a column: res.
+
+
+--My Solution--
+
+SELECT number * -1 as res
+FROM opposite
+
+--Explanation My Solution--
+
+Selects column number and multiplies whatever value by -1, always resulting in the 
+opposite number.
+
+
+--Additional solution from CodeWars--
+
+Select -number AS res FROM opposite; --Always returns the opposite by simply applying negative immediately to the column

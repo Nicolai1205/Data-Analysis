@@ -1,0 +1,22 @@
+Clock shows h hours, m minutes and s seconds after midnight.
+
+Your task is to write a function which returns the time since midnight in milliseconds.
+
+Example:
+h = 0
+m = 1
+s = 1
+
+result = 61000
+
+
+--My Solution--
+
+select 
+  h*3600000 + m*60000 + s*1000 as res 
+from 
+  past
+
+
+--Explanation--
+There are 3600000 miliseconds in an hour, 60000 in a minute and 1000 in a second 
